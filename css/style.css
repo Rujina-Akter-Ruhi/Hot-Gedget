@@ -1,0 +1,79 @@
+.logo {
+    height: 60px;
+}
+.nav-item {
+    position: relative;
+    left: 650px;
+}
+.colom {
+    position: relative;
+    left: 90px;
+    bottom: 30px;
+    
+}
+.colom img {
+    position: relative;
+    right: 90px;
+
+}
+.carousel-item{
+    background-image: url("../images/bg-1.png");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 6%;
+    padding-bottom: 30px;
+}
+.carousel-inner{
+    background-image: url(../images/bg-2.png);
+    background-repeat: no-repeat;
+    background-size: 10%;
+    background-position: left bottom;
+}
+.see-all{
+    text-decoration: none;
+    color:#ff9d00;
+    font-weight: 800;
+}
+.product-cat-title{
+    margin: 50px 0px 20px 0px;
+}
+.card{
+    border: none;
+    box-shadow: 0 5px 20px rgba(109, 109, 109, 0.174);
+    border-radius: 15px;
+
+}
+.card-footer{
+    border-top:none;
+   background-color:white;
+}
+.card img {
+    padding-top: 30px;
+    width: 70%;
+    height: auto;
+    margin: 0 auto;
+}
+.color-bar{
+    background-image: linear-gradient(to left, #FF9C35, #ffd119b3);
+    border-radius:6px;   
+    width:120px;
+    height:5px;
+    margin:auto;
+    display: block;
+    margin-bottom: 60px;   
+    margin-top: 5px;             
+}
+.sarcle{
+    position:relative;
+    right:10px;
+}
+.carcler{
+    position:relative;
+    right:30px;
+}
+.sarcle-carcler:hover{
+    transform: translateY(-20px);
+}
+*{
+    transition: .2s all ease-in-out;
+}
